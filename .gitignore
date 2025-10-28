@@ -29,7 +29,6 @@ android/build
 local.properties
 android/src/main/JNILibs/
 android/.cxx
-android/.kotlin
 
 # node.js
 node_modules/
@@ -58,6 +57,9 @@ react-native-reanimated-tests.js
 # Eclipse
 .settings/
 
+# plugin
+plugin/index.js.map
+
 # yarn
 **/.yarn/*
 !.yarn/patches
@@ -65,13 +67,3 @@ react-native-reanimated-tests.js
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-# pre-commit
-.husky/log.txt
-
-# clangd
-.cache
-CompilationDatabase
-compile_commands.json
-
-build/
