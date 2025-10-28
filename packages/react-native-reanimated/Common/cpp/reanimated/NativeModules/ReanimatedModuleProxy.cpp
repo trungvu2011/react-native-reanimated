@@ -642,7 +642,6 @@ void ReanimatedModuleProxy::maybeRunCSSLoop() {
 }
 
 double ReanimatedModuleProxy::getCssTimestamp() {
-  return currentCssTimestamp_;
   if (cssLoopRunning_) {
     return currentCssTimestamp_;
   }
